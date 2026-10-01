@@ -1,0 +1,156 @@
+
+/* Main page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Main container */
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* App */
+#root > div {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+/* Input section */
+#root > div > div {
+  margin-bottom: 18px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #374151;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+/* Input focus */
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+/* Add student button */
+button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Message */
+p {
+  color: #4b5563;
+}
+
+/* Student list heading */
+h2 {
+  color: #1f2937;
+}
+
+/* Student card */
+h2 + p {
+  margin-top: 5px;
+}
+
+/* Student card container */
+div[key] {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+
+.student-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.student-card h2 {
+  margin-top: 0;
+  color: #1f2937;
+
+}
+
+
+.student-card p {
+  color: #4b5563;
+  margin: 8px 0;
+}
+
+
+
+
+
+/* Delete button */
+.delete-button {
+  background-color: #dc2626;
+}
+
+.delete-button:hover {
+  background-color: #b91c1c;
+}
+
+/* Horizontal line */
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #d1d5db;
+}
+
+
+/* Edit button */
+
+.edit-button {
+    background-color: #f59e0b;
+    margin-right: 10px;
+}
+
+.edit-button:hover {
+    background-color: #d97706;
+    
+}
+
+
