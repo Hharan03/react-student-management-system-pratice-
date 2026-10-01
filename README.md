@@ -1,4 +1,4 @@
-# 🎓 React Student Management System
+# React Student Management System
 
 A beginner-friendly **Student Management System built with React.js**.
 
@@ -8,7 +8,7 @@ The application allows users to add students, view student information, edit exi
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The Student Management System provides a simple interface for managing student information.
 
@@ -30,7 +30,7 @@ The project uses React state to manage the student data and form inputs.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 1. Add Student
 
@@ -135,7 +135,7 @@ Otherwise, it displays **Child**.
 
 ---
 
-# ⚛️ React Concepts Practiced
+#  React Concepts Practiced
 
 This project helped practice several important React concepts.
 
@@ -277,7 +277,7 @@ This copies the existing student and replaces the updated properties.
 
 ---
 
-# 🔄 How the Application Works
+# How the Application Works
 
 ## Adding a Student
 
@@ -301,7 +301,7 @@ React re-renders the list
 
 ---
 
-# ✏️ How the Edit Feature Works
+#  How the Edit Feature Works
 
 The Edit functionality uses an `editId`.
 
@@ -391,7 +391,7 @@ updates the React state.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 react-student-management-system/
@@ -412,7 +412,7 @@ react-student-management-system/
 
 ---
 
-# 💻 Installation and Setup
+# Installation and Setup
 
 ## 1. Clone the repository
 
@@ -442,7 +442,7 @@ The application will run locally using Vite.
 
 ---
 
-# 🎯 Learning Objectives
+#  Learning Objectives
 
 The main purpose of this project was to understand how React handles data and user interactions.
 
@@ -485,7 +485,7 @@ Possible improvements for future versions:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Hariharan**
 
