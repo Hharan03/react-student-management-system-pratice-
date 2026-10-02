@@ -110,18 +110,16 @@ function App() {
 
   function editstudent(student) {
 
-<<<<<<< HEAD
+
     setMessage("");
-=======
-    setMessage("")
->>>>>>> da02d8b (Add screenshots folder)
+    setMessage("");
     
     setEditId(student.id);
 
     setName(student.name);
     setCourse(student.course);
     setPhone(student.phone || "");
-    setAge(student.setAge);
+    setAge(student.tAge);
 
   }
 
