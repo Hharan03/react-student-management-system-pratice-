@@ -108,6 +108,8 @@ function App() {
   //Edit Student Function
 
   function editstudent(student) {
+
+    setMessage("");
     
     setEditId(student.id);
 
