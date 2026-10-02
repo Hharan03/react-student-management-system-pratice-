@@ -49,6 +49,7 @@ function App() {
 
 
     if(editId !== null){
+      
       const updateStudents = students.map((student) =>
       student.id === editId
       ? {
@@ -109,7 +110,11 @@ function App() {
 
   function editstudent(student) {
 
+<<<<<<< HEAD
     setMessage("");
+=======
+    setMessage("")
+>>>>>>> da02d8b (Add screenshots folder)
     
     setEditId(student.id);
 
