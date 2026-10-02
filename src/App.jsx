@@ -205,7 +205,7 @@ function App() {
             <p>{student.course}</p>
             <p>{student.phone}</p>
             <p>
-            {student.age} {student.age > 18 ? "Adult" : "child"}
+            {student.age} {student.age >= 18 ? "Adult" : "child"}
             </p>
            
             <button className="edit-button" onClick={()=> editstudent(student)}>
