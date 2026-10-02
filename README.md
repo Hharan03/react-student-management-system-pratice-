@@ -10,6 +10,10 @@ The application allows users to add students, view student information, edit exi
 
 ## Project Overview
 
+## Project Screenshot
+
+![Student Management System](./screenshot/Screenshot%202026-10-02%20100901.png)
+
 The Student Management System provides a simple interface for managing student information.
 
 A user can enter:
